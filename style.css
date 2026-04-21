@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 16, 86);
+    font-family:cursive; 
+    text-align: center;
+}
+
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+#carouselExample{
+    max-width: 50vh;
+   margin-left: 37%;
+   margin-top: 2%;
+
+}
+
+button{
+    padding: 7px;
+    border-radius: 20px;
+    background-color: blue;
+    color: aliceblue;
+    margin-left: 600px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: rgb(32, 32, 129);
+}
+
+
+button:active{
+    background-color:rgb(189, 182, 170);
+    color: black;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
